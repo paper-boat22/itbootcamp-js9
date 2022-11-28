@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabele</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        .red tr:nth-child(3)  {
+            background-color: yellow;
+        }
+
+        .kolona td:nth-child(3) {
+            background-color: yellow;
+        }
+
+        .kolona th:nth-child(3) {
+            background-color: yellow;
+        }
+
+        .red tr:nth-child(odd) {
+            font-style: italic;
+        }
+
+        .kolona tr:nth-child(even):hover {
+            background-color: yellow;
+        }
+
+        .kolona tr:nth-child(3n) {
+            color: blue;
+        }
+
+    </style>
+</head>
+
+<body>
+    <table class="red">
+        <tr>
+            <th>Last Name</th>
+            <th>First Name</th>
+            <th>Email</th>
+            <th>Due</th>
+            <th>Web Site</th>
+        </tr>
+        <tr>
+            <td>Smith</td>
+            <td>John</td>
+            <td>jsmith@gmail.com</td>
+            <td>5.000</td>
+            <td>http://www.jsmith.com</td>
+        </tr>
+        <tr>
+            <td>Bach</td>
+            <td>Frank</td>
+            <td>fbach@gmail.com</td>
+            <td>50.000</td>
+            <td>http://www.fbach.com</td>
+        </tr>
+        <tr>
+            <td>Doe</td>
+            <td>Jason</td>
+            <td>djason@gmail.com</td>
+            <td>55.000</td>
+            <td>http://www.djason.com</td>
+        </tr>
+        <tr>
+            <td>Conway</td>
+            <td>Tim</td>
+            <td>tconway@gmail.com</td>
+            <td>100.000</td>
+            <td>http://www.tconway.com</td>
+        </tr>
+    </table>
+    <br>
+
+    <table class="kolona">
+        <tr>
+            <th>Last Name</th>
+            <th>First Name</th>
+            <th>Email</th>
+            <th>Due</th>
+            <th>Web Site</th>
+        </tr>
+        <tr>
+            <td>Smith</td>
+            <td>John</td>
+            <td>jsmith@gmail.com</td>
+            <td>5.000</td>
+            <td>http://www.jsmith.com</td>
+        </tr>
+        <tr>
+            <td>Bach</td>
+            <td>Frank</td>
+            <td>fbach@gmail.com</td>
+            <td>50.000</td>
+            <td>http://www.fbach.com</td>
+        </tr>
+        <tr>
+            <td>Doe</td>
+            <td>Jason</td>
+            <td>djason@gmail.com</td>
+            <td>55.000</td>
+            <td>http://www.djason.com</td>
+        </tr>
+        <tr>
+            <td>Conway</td>
+            <td>Tim</td>
+            <td>tconway@gmail.com</td>
+            <td>100.000</td>
+            <td>http://www.tconway.com</td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>

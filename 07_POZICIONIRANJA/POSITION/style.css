@@ -1,0 +1,27 @@
+div {
+    background-color: aquamarine;
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+#d2 {
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+
+#d2 span {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: antiquewhite;
+}
+
+#d2 p {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: bisque;
+}
