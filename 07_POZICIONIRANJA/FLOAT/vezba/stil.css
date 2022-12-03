@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.toolbar {
+    position: fixed;
+    bottom: 0;
+}
+
+.toolbar ul {
+    list-style: none;
+}
+
+.toolbar ul li {
+    background-color: orange;
+    color: white;
+    border: 1px solid white;
+    width: 100%;
+}
+
+.toolbar a {
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+}
+.toolbar a:hover {
+    background-color: violet;
+}

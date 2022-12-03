@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.toolbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.toolbar ul {
+    overflow: hidden;
+    list-style: none;
+}
+
+.toolbar ul li {
+    background-color: orange;
+    color: white;
+    width: 25%;
+    float: left;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.toolbar a {
+    color: white;
+    font-size: 18px;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+.toolbar a:hover {
+    background-color: violet;
+}
+
+/*
+padajuci podmeni
+*/
+
+.submenu {
+    display: none;
+}
+
+.toolbar ul li:nth-child(4):hover .submenu {
+    display: block;
+}

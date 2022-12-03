@@ -7,8 +7,8 @@ div {
 
 #d2 {
     position: relative;
-    top: 10px;
-    right: 10px;
+    top: 30px;
+    right: 30px;
 }
 
 #d2 span {
@@ -21,7 +21,12 @@ div {
 #d2 p {
     margin: 0;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 10px;
+    left: 30px;
     background-color: bisque;
+}
+
+div:first-of-type {
+    position: relative;
+    z-index: -1;
 }
