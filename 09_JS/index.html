@@ -19,6 +19,15 @@
     <script>
         document.write("<ul><li>Prva stavka liste</li><li>Druga stavka liste</li></ul>");
     </script>
+    <h1>Danasnji datum: 
+        <script>
+            let datum = new Date();
+            let dan = datum.getDate();
+            let mesec = datum.getMonth() + 1;
+            let godina = datum.getFullYear();
+            document.write(dan + "." + mesec + "." + godina);
+        </script>
+    </h1>
     <h1>Moja prva JS vezba</h1>
     
     <p>Neki teks</p>
