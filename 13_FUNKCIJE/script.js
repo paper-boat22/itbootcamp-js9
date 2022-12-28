@@ -132,3 +132,6 @@ function maks4(br1, br2, br3, br4) {
 let naj = maks4(15, 2, 14, 3);
 console.log(naj);
 
+
+
+
