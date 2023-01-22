@@ -18,11 +18,17 @@ function updateList(){
     button.innerText = 'Delete';
     button.setAttribute('key',key); 
     button.classList.add('delete');
-
+    if(document.querySelector("input[value='dole']:checked")){
     li.appendChild(span);
     li.appendChild(button);
     listElem.appendChild(li);
+    }
+    else {
+    li.prepend(span);
+    li.appendChild(button);
+    listElem.prepend(li);
   }
+}
 
   localStorage.setItem('to-do-list',JSON.stringify(toDoArray));
 }

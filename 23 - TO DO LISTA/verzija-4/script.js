@@ -3,6 +3,7 @@ let btnDodaj =  document.getElementById('submit');
 let ulTasks = document.querySelector("ul");
 let inputTask = document.getElementById("task");
 
+const toDoArray = JSON.parse(localStorage.getItem('to-do-list')) || [];
 
 btnDodaj.addEventListener("click", () => {
     let inputTaskValue = inputTask.value; // Uzimam vrednost iz input polja

@@ -3,20 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Save data in localStorage using JavaScript</title>
+    <title>Podsetnik</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <section class="container">
-      <h1>JS to-do-list with LocalStorage</h1>
+    <div>
+      <h1>Moj podsetnik</h1>
+        <ul id="to-do-list">
+            <li>Plati račune</li>
+            <li>Pripremi predavanja</li>
+            <li>Odgovori na mail</li>
+            <li>Organizuj konsultacije</li>
+        </ul>
+    </div>
+        <!-- <ul id="to-do-list"></ul> -->
       <div>
         <form action="" id="form">
-          <input type="text" id="input-name">
-          <button type="submit" id="btn-add">Add</button>
+          <input type="text" id="input-name" placeholder="Unesite obavezu">
+          <!-- <button type="submit" id="btn-add">Add</button> -->
         </form>
       </div>
+      <input type="radio" name="dodaj" id="dodajPocetak" value="gore" checked>Dodaj na pocetak
+<br>
+        <input type="radio" name="dodaj" id="dodajKraj" value="dole">Dodaj na kraj
     
-      <ul id="to-do-list"></ul>
+      
     </section>
     <script src="script.js">
       </script>

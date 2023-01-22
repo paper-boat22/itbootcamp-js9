@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-size: 22px;
+  }
+  
+.text-input {
+    /* outline: invert; */
+    border: 1px solid blue;
+    padding: 10px 20px;
+    /* border: none; */
+    font-size: 16px;
+    width: 480px;
+    border-radius: 5px;
+
+  }
+  
+.add-btn {
+    display: none;
+    padding: 20px;
+    border: none;
+    background-color: #b879ff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+.add-btn:hover{
+    background-color: #a14dff;
+  }
+
+  
+.close-icon {
+    width: 100%;
+    display: none;
+    padding: 15px;
+    height: auto;
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  
+.item:hover .close-icon {
+    display: block;
+    z-index: 0;
+  }
+  
+.close-icon:hover {
+    background-color: transparent;
+    z-index: 1;
+    /* width: 100%; */
+  }
+  
+.list {
+    margin-top: 20px;
+  }
+  
+  
+.item {
+    z-index: 0;
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+
+/* p {
+    width: 700px;
+} */
+  
+/* .item p {
+    margin-left: 10px;
+  } */
+
+input {
+      margin: 10px;
+  }
+
+h1 {
+    margin-left: 10px;
+    color: dodgerblue;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+li {
+    list-style-type: none;
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px dotted blue;
+}
+
+li:hover {
+    /* width: 100%; */
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+
+#submit {
+    font-size: 22px;
+    width: 290px;
+    margin: 10px;
+    padding: 10px;
+    background-color: dodgerblue;
+}
+
+#submit:hover {
+    background-color: lightblue;
+}
+
+#task {
+    font-size: 22px;
+    width: 290px;
+    margin: 10px;
+}
+
+.precrtaj{
+    text-decoration: line-through;
+}
